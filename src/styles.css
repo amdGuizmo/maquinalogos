@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: rgb(238, 28, 37);
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 0px;
+  margin: 0px;
+}
+
+.h1 {
+  font-size: 5vw;
+}
+
+.h3 {
+  font-size: 2.7vw;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+}

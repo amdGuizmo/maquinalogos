@@ -8,5 +8,6 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'maquinalogos';
+  title: string = 'maquinalogos';
+  year: string = new Date().getFullYear().toString();
 }
