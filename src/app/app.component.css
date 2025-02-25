@@ -1,0 +1,41 @@
+.box {
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+}
+
+.box .cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  line-height: 100%;
+  background-color:rgba(238, 28, 37,1);
+  transition:opacity 0.15s ease-in;
+  opacity:0;
+  color:#fff;
+  text-shadow:1px 1px 1px rgba(0,0,0,0.15);
+}
+
+.box:hover .cover {
+  opacity:0.75;
+}
+
+.cover .name {
+  text-transform: uppercase;
+  font-weight:bold;
+  margin-bottom:8px;
+}
+
+.cover .title {
+  text-transform:uppercase;
+  font-weight:bold;
+  color:#bbd8fb;
+  letter-spacing:2px;
+  font-size:13px;
+  margin-bottom:20px;
+}
